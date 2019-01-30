@@ -1,0 +1,38 @@
+.programming-lang #languages {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.programming-lang #languages > div {
+  width: 75px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  background: none;
+}
+.programming-lang #languages > div > div {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  margin-right: 17px;
+  background-color: #37474F;
+}
+.programming-lang #languages > div > div .language-level {
+  height: 10%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.programming-lang #languages > div > div .language-name {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
